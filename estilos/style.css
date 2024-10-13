@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 40px 0px;
+        background-color: red;
+    }
+}
+
 :root {
 
     --fontpadrao: Arial, Helvetica, sans-serif;
