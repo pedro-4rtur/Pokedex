@@ -1,0 +1,78 @@
+.perfil-view {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: lavender;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions > a {
+    width: 30%;
+    background-color: #202022;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.actions > a:hover {
+    background-color: #202022ad;
+}
+
+.actions i {
+    width: 100%;
+    font-size: 150%;
+}
+
+.actions #btnAnt {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 80% 50%, 70% 100%, 0% 100%);
+}
+
+.actions #btnProx {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 30% 100%, 20% 50%, 0% 50%);
+}
+
+.perfil-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.pokemon-image img {
+    width: 300px;
+    object-fit: cover;
+}
+
+.pokemon-info {
+    flex-basis: 400px;
+}
+
+.info-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 10px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stats-container {
+    padding: 5px;
+    width: 100%;
+}
+
+.stats-container .barra-status {
+    height: 20px;
+    width: 100%;
+    margin: 5px 0px;
+}
